@@ -1,0 +1,145 @@
+a{
+	color: white;
+}
+
+li{
+ display:inline;
+}
+#d3{
+	font-size: 19px;
+	width: 90%;
+	padding-left: 180px;
+}
+#d3 ul{
+	display: initial;
+	text-align: center;
+	padding-top:10px;
+	float: right;
+}
+#d4{
+	
+	width: 100%;
+}
+#d4-1{
+	float: left;
+	width: 90%;
+	padding-left: 150px;
+	
+}
+#d4-2{
+	position: relative;
+	margin: 0 auto;
+	width :90%;
+	
+	
+}
+#d4-2 table{
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid darkgrey;	
+}
+#d4-2-1{
+	width: 150px;
+	background-color:#122B40;
+	font-size: 17px;
+	text-align: center;
+}
+.d4-2-1{
+	width: 150px;
+	background-color:lightgray;
+	font-size: 17px;
+	text-align: center;
+}
+#d4-2-1 a{
+	color: white;
+}
+.d4-2-1 a{
+	color:black;
+}
+
+#d4-3 {
+	position: relative;
+	margin: 0 auto;
+	width :60%;
+	
+	
+}
+#d4-3 table{
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid darkgrey;	
+}
+#d4-3-2{
+	float:right ;
+	
+}
+.d4-4{
+	position: relative;
+	margin: 0 auto;
+	width :60%;
+	border-bottom: 1px dashed ;
+	height: 350px;	
+	padding-top: 25px;
+}
+
+.d4-4-2{
+	float: right;
+	text-align: left;
+	
+	width :65%;
+}
+.d4-4-2{
+	float: right;
+}
+.d4-4-2-1-2{
+	float: right;
+}
+#d4-5{
+	width: 80%;
+	text-align: right;
+}
+#d5{
+	position: relative;
+	margin: 0 auto;
+	width :60%;
+	height: 200px;	
+	background:black;
+	color:white;
+}
+#d5 table {
+	float: left;
+	display: inline;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+#d5-1-2{
+		
+	width: 40%;
+	float: left;	
+}
+#d5-1-2 table{
+	float: right;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
+	padding-top: 30px;
+}
+#d5-2{
+	width: 80%;
+}
+#ddd{
+	position: fixed;
+	right: 0px;
+	top:50px;
+
+}
+#111{
+	width: 3px;
+	position: fixed;
+	
+}
+
