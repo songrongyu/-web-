@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,target-densitydpi=device-dpi">
+		<title>桔家</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			ul,li{
+				list-style: none;
+			}
+			a {
+				text-decoration: none;
+			}
+			.clearfix:before,.clearfix:after{
+				content: '';
+				display: block;
+				height: 0;
+				visibility:hidden;
+				clear: both;
+			}
+			header{
+				height: 1.45rem;
+				background-color: #ffdb2c;
+				font-size: 0.5rem;
+				line-height:1.45rem;
+				text-align: center;
+			}
+			.tubiao{
+				width: 0.4rem;
+				height: 0.4rem;
+				display: inline-block;
+				background:url(img/01.png) no-repeat;
+				background-size: 100% 100%;
+				float: right;
+				margin: 0.6rem 0.4rem 0.24rem 0;
+			}
+			.toubu{
+				height: 0.88rem;
+			}
+			.nav li{
+				float:left;
+				color: #717171;
+				list-style: none;
+				line-height: 1rem;
+				font-size: 0.4rem;
+				margin: 0 0.4rem 0 1rem ;				
+			}	
+			.nav .first{
+				color: #535353;
+			}
+			.nav .two{
+				border-bottom: 3px solid #ffdb2c;
+				width: 1.5rem;
+				text-align: center;
+			}
+			.content img{
+				width: 10.9rem;
+				height: 4rem;
+			}
+			.content-1 img{
+				width: 2.5rem;
+				height: 2.5rem;
+			}
+			.image{
+				float: left;
+				margin: 0.16rem 0.35rem 0.16rem 0.6rem;
+				
+			}
+			.content-2 p{
+				font-size: 0.7rem;
+				color: #5c5c5c;
+				text-align: center;
+			}
+			.content-2 .text{
+				margin-left: 1.1rem;
+				font-size: 1rem;
+				color: #cccccc;
+				font-family: "宋体";
+				text-shadow: 0.3rem 0.3rem #414141;
+			}
+			.image1{
+				float: left;
+				margin: 0.5rem 0.3rem 0 0.5rem;
+			}
+			.content-3 img{
+				width: 4.5rem;
+				height: 4.5rem;
+			}
+			.image2{
+				float: left;
+				margin: 0.5rem 0.3rem 0 0.5rem;
+			}
+			.content-4 img{
+				width: 4.5rem;
+				height: 1.5rem;
+			}
+			.nav img{
+				width: 0.8rem;
+				height: 0.8rem;
+			}
+			.dibu .nav .image5{
+				width: 2rem;
+				height: 2rem;
+			}
+			.dibu .nav li{
+				margin: 0 0.5rem 0 0.4rem;
+				text-align: center;
+			}
+			.text1 span{
+				color: #ffdb2c;
+			}
+			span{
+				font-size: 0.5rem;
+			}
+		</style>
+		<script src="js/rem.js"></script>
+	</head>
+	<body>
+		<header>
+			<span>桔家</span>
+			<span class="tubiao"></span>
+		</header>
+		<div class="body clearfix">
+			<div class="toubu">
+				<ul class="nav">
+					<li class="first">推荐</li>
+					<li class="two">家居</li>
+					<li>餐厨</li>
+					<li>床上用品</li>
+				</ul>
+			</div>
+			<div class="content">
+				<img src="img/1.png" />
+			</div>
+			<div class="content-1">
+				<div class="image">
+					<img src="img/2.png" />
+				</div>
+				<div class="image">
+					<img src="img/3.png" />
+				</div>
+				<div class="image">
+					<img src="img/4.png" />
+				</div>
+			</div>
+			<div class="content-2">
+				<p>桔&nbsp;|&nbsp;子&nbsp;|&nbsp;家&nbsp;|&nbsp;居</p>
+				<span class="text">Orang&nbsp;household</span>
+			</div>
+			<div class="content-3">
+				<div class="image1">
+					<img src="img/5.png" />
+				</div>
+				<div class="image1">
+					<img src="img/6.png" />
+				</div>
+			</div>
+			<div class="content-4">
+				<div class="image2">
+					<img src="img/7.png" />
+				</div>
+				<div class="image2">
+					<img src="img/8.png" />
+				</div>
+			</div>
+			<div class="dibu">
+				<ul class="nav">
+					<li class="text1"><a><div><img src="img/9.png"/></div><div><span>首页</span></div></a></li>
+					<li><a><div><img src="img/10.png"/> </div><div><span>商城</span></div></a></li>
+					<li><a><img class="image5" src="img/15.png"/></a></li>
+					<li><a><div><img src="img/11.png"/></div><div><span>灵感</span></div></a></li>
+					<li><a><div><img src="img/12.png"/></div><div><span>我的</span></div></a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
