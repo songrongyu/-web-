@@ -7,51 +7,60 @@
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
     <script src="js/jquery-2.2.2.js"></script>
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <style type="text/css">
+        img{
+            width: 60px;
+            margin: 10px 0 0 10px;
+        }
+        #img{
+            margin: 0!important;
+        }
+    </style>
 </head>
 <body>
 	<div data-role="page" id="pagetwo" data-theme="b">
 		<div data-role="header" data-position="fixed">
-			<a href="#" data-role="none"><img style="width: 40px; border-radius: 90px;" src="1.jpg"></a>
+			<a href="#" data-role="none"><img id="img" style="width: 40px; border-radius: 90px;" src="1.jpg"></a>
 			<h1>消息</h1>
 			<a href="#" data-icon="home" data-iconpos="notext"></a>
 		</div>
         <div data-role="content" >
         	<ul data-role="listview"  data-filter="true"
         	data-filter-placeholder="搜索">
-        		<li><a href="#" >
-        			<img src="2.jpg" style="border-radius: 90px;">
+        		<li data-icon="false"><a href="#" >
+        			<img src="2.jpg" style="border-radius: 90px;" width="60px;">
         			<h2>小明</h2>
-        			<p>吃什么？</p>
+        			<p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
         		</a></li>
-        		<li><a href="#">
+        		<li data-icon="false"><a href="#">
         			<img src="3.jpg" style="border-radius: 90px;">
         			<h2>小A</h2>
-        			<p>吃什么？</p>
+        			<p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
         		</a></li>
-        		<li><a href="#">
+        		<li data-icon="false"><a href="#">
         			<img src="4.jpg" style="border-radius: 90px;">
         			<h2>小B</h2>
-        			<p>吃什么？</p>
+        			<p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
         		</a></li>
-        		<li><a href="#">
+        		<li data-icon="false"><a href="#">
         			<img src="1.jpg" style="border-radius: 90px;">
         			<h2>小C</h2>
-        			<p>吃什么？</p>
+        			<p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
         		</a></li>
-        		<li><a href="#">
+        		<li data-icon="false"><a href="#">
         			<img src="2.jpg" style="border-radius: 90px;">
         			<h2>小D</h2>
-        			<p>吃什么？</p>
+        			<p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
         		</a></li>
-        		<li><a href="#">
+        		<li data-icon="false"><a href="#">
         			<img src="3.jpg" style="border-radius: 90px;">
         			<h2>小A</h2>
-        			<p>吃什么？</p>
+        			<p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
         		</a></li>
-        		<li><a href="#">
+        		<li data-icon="false"><a href="#">
         			<img src="2.jpg" style="border-radius: 90px;">
-        			<h2>小D</h2>
-        			<p>吃什么？</p>
+        			<h2>小D </h2>
+        			<p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
         		</a></li>
         	</ul>
         </div>
