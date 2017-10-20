@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QQ登录</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="js/jquery-2.2.2.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+    	a {
+    		text-decoration: none;
+    	}
+    </style>
+</head>
+<body>
+	<div data-role="page" id="pageone">
+		<div style="text-align: center; margin-top: 100px;">
+			<img style="width: 80px; border-radius: 90px;" src="2.jpg">
+		</div>
+		<div data-role="fieldcontain" style="margin: 50px 10px 0 10px;">
+            <input type="text" name="text" id="text" placeholder="账号：" value=""  />
+            <input type="text" name="text" id="pas" placeholder="密码：" value=""  />
+            <button type="button" onClick="hello()" style="background-color:deepskyblue; color: white;" >登录</button>
+        </div>
+	</div>
+</body>
+<script>
+	function hello(){
+		var txt = document.getElementById('text');
+		var psd = document.getElementById('pas');
+		if(txt.value == ""){
+			alert('用户名错误或密码错误');
+		}else{
+			alert('你的QQ账号为'+txt.value+'你的密码为'+psd.value);
+			var i=0;
+		}
+		if(i==0){
+				window.location.href="qqxiaoxi.html";
+			}
+}
+</script>
+</html>
