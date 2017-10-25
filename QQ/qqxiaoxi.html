@@ -15,12 +15,62 @@
         #img{
             margin: 0!important;
         }
+        a {
+            text-decoration: none;
+        }
+        ul li{
+            list-style-type: none;
+        }
     </style>
 </head>
 <body>
-	<div data-role="page" id="pagetwo" data-theme="b">
+	<div data-role="page" id="pageone" data-theme="b">
+        <div data-role="panel" id="myPanel" >
+            <h2>面板消息</h2>
+            <p>
+                <ul data-role="listview"  data-filter="true"
+            data-filter-placeholder="搜索">
+                <li data-icon="false"><a href="#" >
+                    <img src="2.jpg" style="border-radius: 90px;" width="60px;">
+                    <h2>小明</h2>
+                    <p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
+                </a></li>
+                <li data-icon="false"><a href="#">
+                    <img src="3.jpg" style="border-radius: 90px;">
+                    <h2>小A</h2>
+                    <p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
+                </a></li>
+                <li data-icon="false"><a href="#">
+                    <img src="4.jpg" style="border-radius: 90px;">
+                    <h2>小B</h2>
+                    <p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
+                </a></li>
+                <li data-icon="false"><a href="#">
+                    <img src="1.jpg" style="border-radius: 90px;">
+                    <h2>小C</h2>
+                    <p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
+                </a></li>
+                <li data-icon="false"><a href="#">
+                    <img src="2.jpg" style="border-radius: 90px;">
+                    <h2>小D</h2>
+                    <p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
+                </a></li>
+                <li data-icon="false"><a href="#">
+                    <img src="3.jpg" style="border-radius: 90px;">
+                    <h2>小A</h2>
+                    <p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
+                </a></li>
+                <li data-icon="false"><a href="#">
+                    <img src="2.jpg" style="border-radius: 90px;">
+                    <h2>小D </h2>
+                    <p>吃什么？<span style="color: gray;float: right;">15:30</span></p>
+                </a></li>
+            </ul>
+            </p>
+            <a href="#pageone" data-role="button" data-rel="close">关闭面板</a>
+        </div>
 		<div data-role="header" data-position="fixed">
-			<a href="#" data-role="none"><img id="img" style="width: 40px; border-radius: 90px;" src="1.jpg"></a>
+			<a href="#myPanel" data-role="none"><img id="img" style="width: 40px; border-radius: 90px;" src="1.jpg"></a>
 			<h1>消息</h1>
 			<a href="#" data-icon="home" data-iconpos="notext"></a>
 		</div>
