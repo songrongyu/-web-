@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QQ注册</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="QQ.html" />
+    <script src="js/jquery-2.2.2.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+    	a{
+    		text-decoration: none;
+    	}
+    </style>
+</head>
+<body>
+	<div data-role="page" id="pageone">
+		<div style="text-align: center; margin-top: 100px;">
+			<img style="width: 180px; height: 160px;" src="2.png">
+		</div>
+		<div data-role="fieldcontain" style="margin: 0 10px 0 10px;">
+            <input type="text" name="text" id="text" placeholder="昵称：" value=""  />
+            <input type="text" name="text" id="pas" placeholder="密码：" value=""  />
+            <button onClick="qq()" type="button" style="background-color:deepskyblue; color: white;" >注册</button>
+        </div>
+	</div>
+</body>
+<script>
+	 function qq(){
+        var txt=$('#text').val();
+        var psd=$('#pas').val();
+	   $.ajax({
+			type:"get",
+			url:"http://datainfo.duapp.com/shopdata/userinfo.php",
+			data:{status:'register',userID:txt,password:psd},
+            dataType:'json',
+			success:function(data1){
+				console.log(data1);
+				if(data1 == 0){
+					alert('用户名重复');
+				}
+				if(data1 == 1){
+					window.location.href="QQ.html";
+				}
+			}
+		});
+    }
+</script>
+</html>
