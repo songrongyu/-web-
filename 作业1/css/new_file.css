@@ -1,3 +1,6 @@
+body{
+	margin: 0 auto;
+}
 a{
 	color: white;
 }
@@ -5,23 +8,23 @@ a{
 li{
  display:inline;
 }
-#d3{
+#a1{
 	font-size: 19px;
 	width: 90%;
 	padding-left: 180px;
 }
-#d3 ul{
+#a1 ul{
 	display: initial;
 	text-align: center;
 	padding-top:10px;
 	float: right;
 }
-#d4{
+#a2{
 	
 	width: 100%;
 }
-#d4-1{
-	float: left;
+#a3{
+	text-align: center;
 	width: 90%;
 	padding-left: 150px;
 	
@@ -64,16 +67,16 @@ li{
 	
 	
 }
-#d4-3 table{
+#b table{
 	position: relative;
 	margin: 0 auto;
 	border: 1px solid darkgrey;	
 }
-#d4-3-2{
+#dd{
 	float:right ;
 	
 }
-.d4-4{
+.bb{
 	position: relative;
 	margin: 0 auto;
 	width :60%;
@@ -82,31 +85,30 @@ li{
 	padding-top: 25px;
 }
 
-.d4-4-2{
+.d{
 	float: right;
 	text-align: left;
 	
 	width :65%;
 }
-.d4-4-2{
+.d{
 	float: right;
 }
-.d4-4-2-1-2{
+.e{
 	float: right;
 }
 #d4-5{
 	width: 80%;
 	text-align: right;
 }
-#d5{
+#a4{
 	position: relative;
 	margin: 0 auto;
-	width :60%;
 	height: 200px;	
 	background:black;
 	color:white;
 }
-#d5 table {
+#a4 table {
 	float: left;
 	display: inline;
 	position: relative;
@@ -115,21 +117,18 @@ li{
 	padding-left: 30px;
 	padding-top: 30px;
 }
-#d5-1-2{
+#bb{
 		
 	width: 40%;
 	float: left;	
 }
-#d5-1-2 table{
+#bb table{
 	float: right;
 	position: relative;
 	margin: 0 auto;
 	text-align: center;
 	width: 60%;
 	padding-top: 30px;
-}
-#d5-2{
-	width: 80%;
 }
 #ddd{
 	position: fixed;
